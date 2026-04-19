@@ -1,7 +1,9 @@
-#Phase 1: Database Setup (1 hour) 
+#Phase 1: Database Setup
 #1. Create database ‘churn_analysis’. 
 #2.Import CSV files as tables (create those table from existing dataset only) 
 #3. Verify data import 
+
+    
 CREATE DATABASE Churn_analysis;
 use churn_analysis;
 
@@ -238,12 +240,11 @@ LINES TERMINATED BY '\n';
 
 -- Key Business Insights You Will Find
 -- Month-to-month contracts → 43% churn — biggest single factor
-
 --  New customers (0–12 months) → 50% churn — need early retention strategy
 --  Electronic check payment users churn the most among all payment methods
-
 -- Fiber optic + no tech support + month-to-month = highest-risk combination
-
+-- The analysis reveals that customer churn is strongly associated 
+-- with short tenure and flexible contract types
 -- Two-year contract customers → only 3% churn — incentivise upgrades
 
 
